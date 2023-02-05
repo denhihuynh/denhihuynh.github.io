@@ -72,8 +72,8 @@ Error generating stack: `+i.message+`
 `,Gi="5px",ya=50,km=()=>{const e=st.useCallback(n=>n===0?"left-start":n===oa.length?(n+1)%2===0?"left-end":"right":n%2===0?"right-to-left":"left-to-right",[]),t=st.useCallback(n=>n%2===0?"left":"right",[]);return j.jsx(gm,{id:"CV-post-section",children:oa.map((n,r)=>j.jsxs(Bn.Fragment,{children:[r===0&&j.jsx(ka,{lineType:e(r),thickness:Gi,edgeDimension:ya}),gh[n].map((l,i)=>j.jsx(ym,{borderTo:t(r),borderThickness:Gi,children:j.jsxs(wm,{children:[j.jsxs("h2",{children:[l.title," - ",l.role]}),l.description.map((o,u)=>j.jsx(Sm,{children:o},u)),l.technicalEnv!==""&&j.jsxs("p",{children:["Technical environment: ",l.technicalEnv]})]})},i)),j.jsx(ka,{startYear:n,lineType:e(r+1),thickness:Gi,edgeDimension:ya})]},r))})},Em=ee.section`
   background: linear-gradient(
     135deg,
-    rgba(111, 194, 134, 1),
-    rgba(110, 146, 110, 1)
+    rgba(121, 228, 151, 1),
+    rgba(60, 86, 60, 1)
   );
   height: 100vh;
   width: 100vw;
